@@ -12,4 +12,4 @@ The purpose of this repo is to:
 
 ## 👬 Contribution
 
-This roadmap has been pulled from [here](https://github.com/kamranahmedse/developer-roadmap). Please take note of the contributions and visit to see additional roadmaps on WebDev and Backend!
+This roadmap has been pulled from [here](https://github.com/kamranahmedse/developer-roadmap). Please take note of the contributions and visit to see additional roadmaps on WebDev and Backend! Seriously, it's awesome. Check out this repo.
