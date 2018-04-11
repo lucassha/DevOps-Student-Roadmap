@@ -74,11 +74,27 @@ Sooo...
 8) OMG what is this
 
 The point I'm trying to make is: don't be discouraged and overwhelmed right at the start. 
-Clearly, this will be a battle of endurance.
+Clearly, this will be a battle of endurance and attrition.
 There are a ton of tools in the DevOps realm and this is an extreme example. 
 
 <hr>
 
 #### My plan
 
+Given I already have some exposure to DevOps related tools/tasks, my plan is as follows:
 
+1) Continue learning **system administration** topics through [Linux Academy](https://linuxacademy.com/) -- I promise this isn't a sponsored plug!.
+Learning bash and the CLI is crucial for so many of these tools (I'll have a successive post on this), 
+and honestly this site is probably one of the best places for it.
+2) Finish up the **AWS** CSA training course on both Linux Academy and [Cloud Academy](https://cloudacademy.com/dashboard/).
+While the CSA in itself is not THAT useful, AWS is very in demand and DevOps is quite frequently paired with 'the cloud.'
+Most CS students have relatively little background/understanding about it, so it might give you a leg up (or at the very least show initiative)
+3) Continue to learn **Python scripting**. Once again, focus is on CLI. Python is also an object-oriented language, but it's not super important for scripting. Some good resources to start would be [Learn Python the Hard Way](https://learnpythonthehardway.org/), [Colt Steele's Python Bootcamp](https://www.udemy.com/the-modern-python3-bootcamp/) (do not this is Python 3 and not 2, which can make a big difference dependent upon the tools you are using), and [Codecademy](https://www.codecademy.com/learn/learn-python) isn't half bad either. It might be a little dry in comparison to the other two though.
+
+<hr>
+
+#### What's next?
+
+I'm cutting this one short because, at the moment, it's a little all over the place. 
+
+My plan for the next blog is either to focus on **Linux CLI** or **configuration management tools**. It will be super introductory because I'm also learning these topics! And if you're one of the few people actually reading this, feel free to reach out on questions/ideas/topics!
