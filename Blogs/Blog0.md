@@ -49,7 +49,7 @@ and hopefully outline a plan on how to learn these topics.
 One of the most overwhelming and daunting factors of DevOps is **HOW MANY TOOLS AND BUZZWORDS THERE ARE**. 
 
 For example, let's take a look at this post from [r/devops](https://www.reddit.com/r/devops/comments/77dwxd/i_feel_dirty/), 
-which is currently one of the highest upvoted posts for the year (ask for permission on this).
+which is currently one of the highest upvoted posts for the year ([ask for permission on this](https://www.reddit.com/r/devops/comments/77dwxd/i_feel_dirty/)).
 
 ```
 I have to confess to how dirty I feel.
