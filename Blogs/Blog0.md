@@ -77,6 +77,8 @@ The point I'm trying to make is: don't be discouraged and overwhelmed right at t
 Clearly, this will be a battle of endurance and attrition.
 There are a ton of tools in the DevOps realm and this is an extreme example. 
 
+We'll deep dive on tons of these areas including (but not limited to) configuration management tools (Ansible, Puppet, Chef), container services and virtualization (Docker, Kubernetes), scripting (Python and Bash mostly), monitoring, CI/CD, and a whole bunch of other confusing, interesting stuff!
+
 <hr>
 
 #### My plan
