@@ -83,7 +83,7 @@ We'll deep dive on tons of these areas including (but not limited to) configurat
 
 #### My plan
 
-Given I already have some exposure to DevOps related tools/tasks, my plan is as follows:
+Given I already have some exposure to DevOps related tools/tasks, my plan is as follows for April:
 
 1) Continue learning **system administration** topics through [Linux Academy](https://linuxacademy.com/) -- I promise this isn't a sponsored plug!.
 Learning bash and the CLI is crucial for so many of these tools (I'll have a successive post on this), 
