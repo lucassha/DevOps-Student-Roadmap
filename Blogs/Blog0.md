@@ -2,7 +2,7 @@
 #### So... what the hell is DevOps?
 
 *If you're a purist*, it's the ideal of deploying the code your SWEs are churning out faster and easier (think automation). 
-It's a combination of [lean principles](https://en.wikipedia.org/wiki/Lean_manufacturing), which is derived from manufacturing, in combination with [agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
+It's a combination of [lean principles](https://en.wikipedia.org/wiki/Lean_manufacturing), which is derived from manufacturing, and [agile software development](https://en.wikipedia.org/wiki/Agile_software_development).
 In essence, it's a cultural movement and not a job title!
 
 *But if you're looking for a job*, [it's definitely a job title](https://www.indeed.com/jobs?q=devops+engineer&l=New+York%2C+NY).
