@@ -9,7 +9,7 @@ In essence, it's a cultural movement and not a job title!
 
 *And if you're a student (like me)*, it's some combination of development and operations, neither of which you totally understand at the moment!
 
-If you're looking for an exact definition, I like this [Shippable article](http://blog.shippable.com/how-to-be-a-great-devops-engineer):
+*Finally, if you're looking for an exact definition*, I like this [Shippable article](http://blog.shippable.com/how-to-be-a-great-devops-engineer):
 The goal of DevOps is to ensure frequent, predictable, error-free software releases that helps you innovate faster.
 
 Confused yet? You bet!
