@@ -88,7 +88,7 @@ We'll deep dive on tons of these areas including (but not limited to) configurat
 
 Given I already have some exposure to DevOps related tools/tasks, my plan is as follows for April:
 
-1) Finish reading the **[Phoenix Project]**(https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509), aka the quintessential DevOps book. According to pretty much everyone (aka Reddit), this should be your first step. As mentioned at the beginning of the post, DevOps is a philosophy. This book will introduce these concepts.
+1) Finish reading the [**Phoenix Project**](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509), aka the quintessential DevOps book. According to pretty much everyone (aka Reddit), this should be your first step. As mentioned at the beginning of the post, DevOps is a philosophy. This book will introduce these concepts.
 2) Continue learning **system administration** topics through [Linux Academy](https://linuxacademy.com/) -- I promise this isn't a sponsored plug! 
 Learning bash and the CLI is crucial for so many of these tools (I'll have a successive post on this), 
 and honestly this site is probably one of the best places for it.
