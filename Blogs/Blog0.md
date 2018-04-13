@@ -103,4 +103,4 @@ Most CS students have relatively little background/understanding about it, so it
 
 I'm cutting this one short because, at the moment, it's a little all over the place. 
 
-My plan for the next blog is either to focus on **Linux CLI**, **configuration management tools**, or dissecting the **Phoenix Project** with my learnings. If technical, it will be super introductory because I'm also learning these topics! And if you're one of the people actually reading this, feel free to reach out on questions/ideas/topics!
+My plan for the next blog is either to focus on **Linux CLI**, **configuration management tools**, or dissecting the **Phoenix Project**. If technical, it will be super introductory because I'm also learning these topics! And if you're one of the people actually reading this, feel free to reach out on questions/ideas/topics!
