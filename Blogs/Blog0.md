@@ -51,8 +51,8 @@ and hopefully outline a plan on how to learn these topics.
 
 One of the most overwhelming and daunting factors of DevOps is **HOW MANY TOOLS AND BUZZWORDS THERE ARE**. 
 
-For example, let's take a look at this post from [r/devops](https://www.reddit.com/r/devops/comments/77dwxd/i_feel_dirty/), 
-which is currently one of the highest upvoted posts for the year ([ask for permission on this](https://www.reddit.com/r/devops/comments/77dwxd/i_feel_dirty/)).
+For example, let's take a look at this post from [r/devops (courtesy of u/StephanXX)](https://www.reddit.com/r/devops/comments/77dwxd/i_feel_dirty/), 
+which is currently one of the highest upvoted posts for the year.
 
 ```
 I have to confess to how dirty I feel.
@@ -69,7 +69,7 @@ Sooo...
 
 1) What is Jenkins, a Jenkinsfile, and Groovy
 2) Python script - phew, OK, maybe I get that one
-3) YAML - uhh, file type I guess
+3) YAML - uhh, file type specifically for parsing Python (maybe?)
 4) Jinja string substitution?
 5) Dockerfile??
 6) Is this all in bash? Huh
