@@ -1,7 +1,7 @@
 ### August 2018 - Blog1
 #### Phoenix Project: Understanding the why before the how
 
-Hi everyone, welcome to my second blog post about a DevOps journey, 
+Hi everyone, welcome to my second blog post about my DevOps journey, 
 where I’ll be talking about why reading the Phoenix Project is important and rambling about a few concepts within it afterwards. 
 Bear with me on this one, as it is pretty much entirely conceptual. 
 
