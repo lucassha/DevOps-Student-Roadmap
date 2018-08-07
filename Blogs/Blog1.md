@@ -22,7 +22,7 @@ Note, that last little bit was tongue-in-cheek.
 If you are reading this blog, then I am assuming this is your first foray into the field (myself included, of course).
 As such, Phoenix Project allows you to conceptualize and internalize many of the components of DevOps that would otherwise be abstract.
 How do ops people communicate with developers? What role does security play in ops? How should IT communicate with upper management?
-All of these things are answers from ten thousand feet as we follow Bill, the newly promoted VP of IT Ops, through his journey.
+All of these things are answered from ten thousand feet as we follow Bill, the newly promoted VP of IT Ops, through his journey.
 
 Without context on why you are doing something, implementing DevOps is just mashing a bunch of open source tools together and adding as many 
 buzzwords as you can find along the way. This book's end goal is not to give a solution for your problems but enable you to think strategically
