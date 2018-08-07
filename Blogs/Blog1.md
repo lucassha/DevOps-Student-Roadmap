@@ -79,7 +79,7 @@ A single SME is solving this problem without anyone else understanding the root 
 
 Phoenix Project does an excellent job at driving home how to think critically about the business and IT’s role within it. 
 You won’t learn about a single tool in this book, and that’s really the point of it. 
-Think about the purpose of DevOps and not just the fat salary that sometimes comes along with it.  
+Think about the purpose of DevOps and not just the fat salary that sometimes comes along with it by learning a metric shit ton of tools.  
 
 <hr>
 
