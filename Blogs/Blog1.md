@@ -87,7 +87,7 @@ Think about the purpose of DevOps and not just the fat salary that sometimes com
 
 If you're looking for something a little shorter, [take a look at this article](https://itrevolution.com/devops-at-nike/), from the same site Gene posted on
 about Nike trying to modernize and enable a forward-thinking engineering culture within their organization.
-I wouldn't take this as gospel, but it's a pretty good example
+I wouldn't take this as gospel, but it's a pretty good example.
 
 As the guy states:
 
@@ -99,7 +99,7 @@ As the guy states:
 
 #### Still there?
 
-Hope you're still with me! I could easily write about Phoenix Project and its background in manufacturing for horus, so I hope this **VERY**
+Hope you're still with me! I could easily write about Phoenix Project and its background in manufacturing for hours, so I hope this **VERY**
 brief summation was at least a little helpful and not dreadfully boring. As this repo has gained a bit of traction, I'd love to hear from others and their experience
 in these areas. Feel free to add your own info and thoughts into the blog post with a commit or PR.
 
