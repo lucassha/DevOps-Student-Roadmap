@@ -3,8 +3,10 @@
 
 Hi everyone, welcome back! I just finished up my internship a couple weeks back working on the Build and Release Engineering team at a local company in Portland, OR
 and thought it would be a good time to write about my experience. 
-How to get a DevOps focused internship (anecdotal, of course!), where to focus your free time, 
-and probably just some general rambling about this. I'll be writing about this in linear progression.
+What a DevOps internship entails (anecdotal, of course!), where to focus some free time, 
+and probably just some general rambling about this. 
+
+I'll be writing about my job linearly. 
 
 Let's dig in!
 
@@ -25,7 +27,7 @@ This brings me to my first point in this blog:
 1. Put your damn GitHub profile on your resume!
 
 Without it, employers have no idea if you can code or where your interests lie. GH is really meant for SCM, but you can get away putting notes
-and documentation on it no problem (hint hint - this little blog)! This tip might seem obvious if you're reading this on GitHub, but I really want to emphasize it. 
+and documentation on it no problem (hint hint - these posts)! This tip might seem obvious if you're reading this on GitHub, but I really want to emphasize it. Plus, you might get out of whiteboarding too ;)
 
 In the end, they told me I was accepted for the position because I had a budding interest in Linux and DevOps, 
 which put me over the top compared to other candidates that were focused on getting a SWE position.
