@@ -53,7 +53,7 @@ After a bunch of self-studying Linux, it became soberingly clear that I was stil
 Build and Release Engineer, so with that in mind, I was assigned a couple projects that were development oriented in order to bridge the gap 
 between our BRE (Build and Rel Eng) team and various teams of developers. 
 
-First project: 
+**First project:** 
 
 Develop a tool using Python (Flask as the framework) that will allow temporary access to our internal GitHub repositories for a specific team and period of time. 
 In my opinion, it was the perfect first project. It allowed me to gain exposure with CRON jobs, object-relational mapping in SQL (specifically, SQLAlchemy), 
@@ -67,7 +67,7 @@ with PyLint was invaluable. Thus, don't feel bad when your code looks like shit 
 At an internship, you're getting paid to learn. If you fuck up or can't figure out a problem, reach out to mentors and teammates to figure 
 out the solution isntead of churning endlessly on a problem you can't figure out. No reason to ever get worked up over something like that.
 
-Second project:
+**Second project:**
 
 After learning Flask, my job became A LOT easier. My next project allowed custom routing within Mattermost for specific string searches.
 If a developer wanted the output of a Jenkins build (where all jobs were posted to a #Jenkins channel), they could add a regex query to search 
