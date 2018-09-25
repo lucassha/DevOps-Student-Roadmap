@@ -15,10 +15,7 @@ your toes into the Mariana Trench. This is not the tutorial you need when you in
 * Docker vs. virtual machines
 * A bit on Docker
 * VM vs. Docker Image comparison
-* Uses of Docker
-* Dockerfile example
-* Hypotheticals
-* TravisCI with Docker 
+* Dockerfile example 
 
 Without further ado, let's get into it.
 
@@ -33,6 +30,8 @@ Think of the hypervisor as a supervisor that manages VMs. That's pretty much it.
 [Google search](https://www.networkworld.com/article/3243262/virtualization/what-is-a-hypervisor.html) will bring up some good resources.
 
 What's the purpose of VMs? Lots of reasons. It mostly boils down to isolation and utilizing resources efficiently (use up that CPU! No need to buy another server when one is barely utilized).
+
+<hr>
 
 #### Docker vs VMs
 
@@ -49,6 +48,8 @@ In comparison, VMs actually install additional guest OSes on top of your own OS 
 Sooo.. why use Docker versus a VM? They're generally quite memory-friendly (don't use much memory -- back on that in a minute), portable, have an extensive list of [Docker Images](https://hub.docker.com/) (GitHub for Docker, essentially), and they can even run on top of VMs! 
 
 [From this article](https://www.settlersoman.com/vms-are-houses-containers-are-apartments/), a nice analogy to think of the differences: Docker is like little apartments, whereas a VM is a house. Docker is all about isolation. 5 people may live under one roof, or you could split those people (which could be processes) into 5 different apartments and not have any family bickering ;) 
+
+<hr>
 
 #### Docker Rundown & Example
 
@@ -69,6 +70,8 @@ Anyways, this will now allow you to type code into the REPL with Python 3! It's 
 The Docker CLI is your friend! It's generally quite easy to use and can give quite a bit of information very quickly. If you want to see the container you ran from, simply type in `docker images` to see the current images. If you want to see the specific container or re-run it, type in `docker ps -a`. Without the `-a`, you'll only see current running containers. 
 
 I would highly, highly suggest at least running through the first couple pages of the [official Docker Get Started Guide](https://docs.docker.com/get-started/#containers-and-virtual-machines) if this is interesting.
+
+<hr>
 
 #### Memory Usage
 
@@ -92,3 +95,53 @@ Around 340 MB smaller! That's a huge difference.
 Why is it so much smaller? Well, it could tons of reasons, but generally there is less config and some binary files may not exist. Binaries like `which`, `vim`, `nano` may not come pre-installed in the Ubuntu Docker Image, which saves space. Why not include them? Well, most likely because you won't need access to a shell environment! 
 
 In fact, image can even get smaller. Alpine Docker Images exist, which remove even more excess. To specify a specific image, just add a colon to whatever image you want: `docker pull node:alpine`
+
+<hr>
+
+#### Dockerfiles
+
+Want a custom image? Forget the Docker CLI from not using it? Want repeatable code? 
+
+Well, this is where a Dockerfile comes in handy. It allows building a custom image based on specific specs. I'm going to run through a quick example, but I won't be explaining it in depth. This [best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) link from Docker will give you way more accurate info than I could.
+
+Now, let's run through a quick exp. Create a new directory somewhere on your filesystem (doesn't matter where). Open up a text editor, and name the file `Dockerfile`. No extension.
+
+Now add these contents:
+
+```
+# add a comment on how to build this Dockerfile if you want
+# docker build -t shannon:latest .
+
+# grab the alpine image from dockerhub
+FROM alpine
+# run this command
+CMD ["echo", "hi from the alpine container"]
+```
+
+So, let's build it, as I wrote in the comment: `docker build -t shannon:latest`
+
+Type in `docker images` to see your new image:
+
+```
+REPOSITORY          TAG                 IMAGE ID            CREATED              SIZE
+shannon             latest              03517edef7c3        About a minute ago   4.41MB
+```
+
+Now run that badboy:
+
+`docker run 03517edef7c3` but really `docker run <your_generated_image_id_here>`
+
+You'll get some output: `hi from the alpine container`
+
+Boom. That's it. 
+
+<hr>
+
+#### Wrapping it up
+
+Considering this post is already pretty long, I'm going to wrap it up here. Hopefully your head isn't spinning. 
+
+If it isn't, maybe take a peek at this Alpine Linux Docker container being run in a web browser from another Docker container! 
+
+https://contained.af/
+
