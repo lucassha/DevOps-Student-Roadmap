@@ -1,6 +1,6 @@
 ### Links  
 
-[Blog 0](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog0.md) - What to expect 
+[Blog 0](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog0.md) - What is DevOps
 
 [Blog 1](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog1.md) - Phoenix Project
 
