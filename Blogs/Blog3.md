@@ -118,7 +118,7 @@ FROM alpine
 CMD ["echo", "hi from the alpine container"]
 ```
 
-So, let's build it, as I wrote in the comment: `docker build -t shannon:latest`
+So, let's build it, as I wrote in the comment: `docker build -t shannon:latest .` The `.` just simply means search your current working directory for a Dockerfile.
 
 Type in `docker images` to see your new image:
 
