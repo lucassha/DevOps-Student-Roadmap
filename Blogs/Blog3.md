@@ -1,5 +1,5 @@
 ### September 2018 - Blog 3
-#### Docker - What is it & a few simple examples
+#### Docker 
 
 Hi! For this blog, I want to discuss Docker, its uses, a practical example, and some other hypotheticals. It's really easy to get too technical with Docker,
 so I'm going to try to keep it simple. 
