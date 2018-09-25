@@ -1,8 +1,7 @@
 ### September 2018 - Blog 3
 #### Docker 
 
-Hi! For this blog, I want to discuss Docker, its uses, a practical example, and some other hypotheticals. It's really easy to get too technical with Docker,
-so I'm going to try to keep it simple. 
+Hi! For this blog, I want to discuss Docker, its uses, a practical example, and using a Dockerfile instead of the CLI. It's really easy to get too technical with Docker, so I'm going to try to keep it simple. 
 
 **Disclaimer:** There are a TON of really, really good Docker resources out there. Like, a staggering amount. Take this blog as dipping 
 your toes into the Mariana Trench. This is not the tutorial you need when you inevitably forget all of the Docker CLI in, like, 3 months ;) 
@@ -39,13 +38,13 @@ Let's take a look at this photo (courtesy of Docker) and see the difference:
 
 ![](https://imgur.com/p8l7dyw.png)
 
-So, what's the difference? 
+So, what are we looking at here?
 
-Well, Docker runs on top of your host OS. Without going too technical, Docker creates an isolated environment with namespaces, cgroups, and some filesystem manipulation (I don't totally understand either, don't worry!). 
+Well, Docker runs on top of your host OS. Without going too technical, Docker creates an isolated environment with namespaces, cgroups, and some filesystem manipulation (I don't 100% understand either, don't worry!). 
 
-In comparison, VMs actually install additional guest OSes on top of your own OS with the help of a hypervisor, which basically supervises them. 
+In comparison, VMs actually install additional guest OSes on top of your own OS with the help of a hypervisor, which then supervises them. 
 
-Sooo.. why use Docker versus a VM? They're generally quite memory-friendly (don't use much memory -- back on that in a minute), portable, have an extensive list of [Docker Images](https://hub.docker.com/) (GitHub for Docker, essentially), and they can even run on top of VMs! 
+Sooo.. why use Docker versus a VM? They're generally quite memory-friendly (back on that in a minute), portable, have an extensive list of [Docker Images](https://hub.docker.com/) (GitHub for Docker, essentially), and they can even run on top of VMs! 
 
 [From this article](https://www.settlersoman.com/vms-are-houses-containers-are-apartments/), a nice analogy to think of the differences: Docker is like little apartments, whereas a VM is a house. Docker is all about isolation. 5 people may live under one roof, or you could split those people (which could be processes) into 5 different apartments and not have any family bickering ;) 
 
@@ -55,19 +54,17 @@ Sooo.. why use Docker versus a VM? They're generally quite memory-friendly (don'
 
 So far, I've only mentioned Docker Images, but they're more frequently called **containers**. What's the difference?
 
-Well, a Docker Image is the pre-built image. When it runs, that's considered a container. That's really it. It's generally used interchangeably. I doubt anyone is gonna pull out a shamebell if you switch them.
+Well, a Docker Image is the pre-built image. When it runs, that's considered a runtime container. That's really it. It's generally used interchangeably. I doubt anyone is gonna pull out a shamebell if you switch them.
 
 I'll work through a practical example real quick. Let's say we want to run some code in Python 3, but we only have Python 2.7 installed locally. Well, let's build an image and then run the container!
 
-`docker pull python` - this pulls down the latest Python image from Docker Hub
+`docker run` will both run the container, but also pull down a pre-built image from Docker Hub if one is not found locally. So, let's use that.
 
-Now, let's run the image and also allow ourselves to use the REPL within the container
+`docker run -it python` - -i means interactive (basically, allow typing still). -t creates a sudo-tty (interact with your container basically). Don't worry about the extensions too much right now. 
 
-`docker run -it python` - this runs the image as a container. -i means interactive (basically, allow typing still). -t creates a sudo-tty (interact with your container basically). Don't worry about the extensions too much right now. 
+Anyways, this will now allow you to type code into the REPL with Python 3! It's that simple. P.s.- if you're stuck in the REPL, ctrl+D might help
 
-Anyways, this will now allow you to type code into the REPL with Python 3! It's that simple. P.s.- if you're stuck in the REPL, ctrl+D might help :) 
-
-The Docker CLI is your friend! It's generally quite easy to use and can give quite a bit of information very quickly. If you want to see the container you ran from, simply type in `docker images` to see the current images. If you want to see the specific container or re-run it, type in `docker ps -a`. Without the `-a`, you'll only see current running containers. 
+The Docker CLI is your friend! It's generally quite easy to use and can give quite a bit of information very quickly. If you want to see the image you ran your container from, simply type in `docker images`. If you want to see the specific container or re-run it, type in `docker ps -a`. Without the `-a`, you'll only see current running containers. 
 
 I would highly, highly suggest at least running through the first couple pages of the [official Docker Get Started Guide](https://docs.docker.com/get-started/#containers-and-virtual-machines) if this is interesting.
 
@@ -75,7 +72,7 @@ I would highly, highly suggest at least running through the first couple pages o
 
 #### Memory Usage
 
-I want to emphasize the memory difference of VMs versus Docker Images, so let's take a quick peek under the hood.
+I want to emphasize the memory usage difference of VMs versus Docker Images, so let's take a quick peek under the hood.
 
 Vagrant VMs are generally hosted in ~/.vagrant.d, which shows one of my images below. This shows that VM is ~425MB. This can be shown by typing in `ls -alh`, which produces file sizes in human readable format.
 
@@ -106,7 +103,7 @@ Well, this is where a Dockerfile comes in handy. It allows building a custom ima
 
 Now, let's run through a quick exp. Create a new directory somewhere on your filesystem (doesn't matter where). Open up a text editor, and name the file `Dockerfile`. No extension.
 
-Now add these contents:
+Now add the contents below:
 
 ```
 # add a comment on how to build this Dockerfile if you want
