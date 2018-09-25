@@ -11,11 +11,11 @@ your toes into the Mariana Trench. This is not the tutorial you need when you in
 
 #### Here's the plan 
 
-* A bit on virtualization
-* Docker vs. virtual machines
-* A bit on Docker
-* VM vs. Docker Image comparison
-* Dockerfile example 
+* [A bit on virtualization](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog3.md#virtualization)
+* [Docker vs. virtual machines](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog3.md#docker-vs-vms)
+* [A bit on Docker](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog3.md#docker-rundown--example)
+* [VM vs. Docker Image comparison](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog3.md#memory-usage)
+* [Dockerfile example](https://github.com/lucassha/DevOps-Student-Roadmap/blob/master/Blogs/Blog3.md#dockerfiles) 
 
 Without further ado, let's get into it.
 
@@ -145,3 +145,4 @@ If it isn't, maybe take a peek at this Alpine Linux Docker container being run i
 
 https://contained.af/
 
+Next up will probably be making a CI/CD pipeline example with Docker and TravisCI. It will push new builds every time we push changes to the master branch in GitHub. If you take a look at my repos, I already have some examples, but I'll break it down. Au revoir!
