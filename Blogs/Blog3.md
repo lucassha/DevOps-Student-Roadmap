@@ -36,7 +36,7 @@ What's the purpose of VMs? Lots of reasons. It mostly boils down to isolation an
 
 Let's take a look at this photo (courtesy of Docker) and see the difference:
 
-![](https://imgur.com/p8l7dyw.png)
+![test](https://imgur.com/p8l7dyw.png)
 
 So, what are we looking at here?
 
