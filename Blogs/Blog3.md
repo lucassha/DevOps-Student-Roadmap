@@ -70,9 +70,9 @@ I would highly, highly suggest at least running through the first couple pages o
 
 <hr>
 
-#### Memory Usage
+#### Disk Space Usage
 
-I want to emphasize the memory usage difference of VMs versus Docker Images, so let's take a quick peek under the hood.
+I want to emphasize the disk space difference of VMs versus Docker Images, so let's take a quick peek under the hood.
 
 Vagrant VMs are generally hosted in ~/.vagrant.d, which shows one of my images below. This shows that VM is ~425MB. This can be shown by typing in `ls -alh`, which produces file sizes in human readable format.
 
@@ -89,9 +89,11 @@ ubuntu              latest              cd6d8154f1e1        2 weeks ago         
 
 Around 340 MB smaller! That's a huge difference. 
 
-Why is it so much smaller? Well, it could tons of reasons, but generally there is less config and some binary files may not exist. Binaries like `which`, `vim`, `nano` may not come pre-installed in the Ubuntu Docker Image, which saves space. Why not include them? Well, most likely because you won't need access to a shell environment! 
+Why is it so much smaller? Well, it could tons of reasons, but generally there is less config and many binary files may not exist. Binaries like `which`, `vim`, `nano` may not come pre-installed in the Ubuntu Docker Image, which saves space. Why not include them? Well, most likely because you won't need access to a shell environment! 
 
 In fact, image can even get smaller. Alpine Docker Images exist, which remove even more excess. To specify a specific image, just add a colon to whatever image you want: `docker pull node:alpine`
+
+Remember, this is only a disk space comparison. Memory usage should also be taken into account, where Docker's lightweight containers also use up less memory.
 
 <hr>
 
