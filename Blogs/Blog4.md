@@ -23,8 +23,6 @@ Of course, Docker Swarm may also be relatively simple, but I have very limited e
 #### Feedback
 
 Next month, my plan is to take this same app and re-deploy it locally on Kubernetes with Minikube. Kubernetes is such a hot field at the moment,
-and containers are really intriguing to me. If you have thoughts on other topics, let me know! In the next couple posts, I think I'll continue
-with container topics. The underlying workings of containers are another interesting topic to me, so perhaps a future post will
-focus on namespaces and cgroups, as a container is really just processes running on the kernel isolated from others with namespaces. 
+and underlying workings of containers are really intriguing to me with control groups and namespaces. If you have thoughts on other topics, let me know! 
 
 Until next time.
