@@ -1,8 +1,8 @@
 ### October 2018 - Blog 4
 #### Docker Compose
 
-Bonjour! This month I decided to go a new route and make a YouTube tutorial series on Docker Compose. Last post, I mentioned a post on TravisCI 
-with a Python script, but I thought this Docker Compose would line up nicely since the last post was on Docker basics.
+Bonjour! This month I decided to go a new route and make a YouTube tutorial series on Docker Compose. Last post, I mentioned TravisCI 
+with a Python script, but I thought this Docker Compose lesson would line up nicely since the last post was on Docker basics.
 
 If you do want some exposure with Docker and Travis automated deployments, I have a repo [here](https://github.com/lucassha/python-docker-travis-cd)
 where I basically did what I mentioned.
@@ -13,7 +13,7 @@ I might eventually write a blog post on the process (Docker isn't technically re
 If you don't want to read, [here's the YouTube playlist link](https://www.youtube.com/playlist?list=PLLnx2hDbasCmseHwZV34ijxxSb2Vlyxmx&disable_polymer=true),
 and [here's the associated GitHub repo](https://github.com/lucassha/youtube-containers-tutorial/blob/master/README.md)
 
-It's basically a series on building MySQL and Node.JS containers and allowing them to connect within the same network for a basic CRUD app.
+It's basically a series on building MySQL and Node.JS containers and allowing them to connect within the same network (namespace) for a basic CRUD app.
 Overall, Docker Compose made the networking issues of Docker substantially easier to allow containers to communicate with one another. 
 For deploying apps though, an NGINX container should  be added in too in order to allow easy routing through a cloud provier.
 
